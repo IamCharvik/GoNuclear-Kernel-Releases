@@ -1,6 +1,6 @@
 # G☢️Nuclear Kernel
 
-<img width="1536" height="768" alt="17733281331994800817939737647968" src="https://github.com/user-attachments/assets/7bc036b5-e535-4684-9ff6-d3511f81d7c2" />
+<img width="1280" height="727" alt="GoNuclear Kernel" src="https://i.ibb.co/RM5K59F/Whats-App-Image-2026-11-18-at-1-24-35-PM.jpg" />
 
 
 **[Download Kernel (Normal)](https://github.com/IamCharvik/GoNuclear-Kernel-Releases/releases)**

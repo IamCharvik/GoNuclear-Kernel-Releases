@@ -39,5 +39,26 @@
 ### ⚙️ Supported ROMs
 * AOSP ROMS ONLY
 
+### 📥 Installation
+
+*Recommended: flash with a custom recovery (TWRP / OrangeFox, or LineageOS/AOSP recovery).*
+
+1. Boot into your custom recovery.
+2. Flash `GoNuclear_v5_Stone.zip` (or `GoNuclear_v5_KSU_Stone.zip`).
+3. Reboot. Flash takes care of boot + DTBO, no separate steps needed.
+
+**⚠️ The zip contains GoNuclear's own thermal profiles.** When flashed, it replaces these files on your device:
+
+* `/vendor/etc/thermal-normal.conf`
+* `/vendor/etc/thermal-normal-india.conf`
+* `/vendor/etc/thermal-tgame.conf`
+* `/vendor/etc/thermal-mgame.conf`
+
+(`/system/vendor/etc/...` on some setups — the installer tries both). It also clears `/data/vendor/thermal/config/thermal-*.conf` and `/data/vendor/thermal/decrypt.txt` so `mi_thermald` reloads the new profiles.
+
+**Back up your stock thermal files from `/vendor/etc/` before flashing** if you want to restore them later.
+
+**Don't want the thermal optimization?** Delete the `thermal/` folder from the zip (any zip editor will do) and then flash it — the kernel and DTBO install as usual and the thermal install is skipped automatically.
+
 ---
 *Please refer to our Telegram Support Group for more info & questions.*

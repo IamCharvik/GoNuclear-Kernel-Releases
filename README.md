@@ -3,9 +3,9 @@
 <img width="1536" height="768" alt="17733281331994800817939737647968" src="https://github.com/user-attachments/assets/7bc036b5-e535-4684-9ff6-d3511f81d7c2" />
 
 
-**[Download Kernel (Normal)](https://github.com/IamCharvik/GoNuclear-Kernel-Releases/releases/download/V5.0/GoNuclear_v5_Stone.zip)**
+**[Download Kernel (Normal)](https://github.com/IamCharvik/GoNuclear-Kernel-Releases/releases)**
 
-**[Download Kernel (KSU)](https://github.com/IamCharvik/GoNuclear-Kernel-Releases/releases/download/V5.0/GoNuclear_v5_KSU_Stone.zip)**
+**[Download Kernel (KSU)](https://github.com/IamCharvik/GoNuclear-Kernel-Releases/releases)**
 
 
 ### Changelog V5.0

@@ -27,14 +27,14 @@
 
 *Everything in the normal build, plus:*
 
-- KernelSU (BakaSU fork) is built directly from source — there is no official prebuilt manager for this kernel yet, so the kernel and the manager are compiled by us from source
-- The manager is built from the BakaSU source with the INTERNET permission removed — it cannot connect to any network or send any data anywhere
-- Only the exact manager APK we build (pinned size + hash, verified in CI) is allowed to get root — other or modified managers are rejected
+- KernelSU (BakaSU fork), formerly known as ReSukiSU.
+- The KSU-Manager built directly from source with the INTERNET permission removed.
+- Only the exact manager APK we build and offical KSU-Manager is allowed to get root.
 - Manual hooks enabled (setuid / initrc / input) for 5.4 non-GKI kernels
 - Multi-manager support removed
 
 ### 📱 Supported Devices
-* STONE (Redmi Note 12 5g × Poco X5 5g)
+* STONE/GEMSTONE (Redmi Note 12 5g × Poco X5 5g)
 
 ### ⚙️ Supported ROMs
 * AOSP ROMS ONLY

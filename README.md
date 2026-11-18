@@ -27,9 +27,10 @@
 
 *Everything in the normal build, plus:*
 
-- KernelSU (BakaSU fork) integrated with manual hooks for 5.4 non-GKI kernels
-- Manual hooks enabled (setuid / initrc / input)
-- CI support for custom KSU manager signatures
+- KernelSU (BakaSU fork) is built directly from source — there is no official prebuilt manager for this kernel yet, so the kernel and the manager are compiled by us from source
+- The manager is built from the BakaSU source with the INTERNET permission removed — it cannot connect to any network or send any data anywhere
+- Only the exact manager APK we build (pinned size + hash, verified in CI) is allowed to get root — other or modified managers are rejected
+- Manual hooks enabled (setuid / initrc / input) for 5.4 non-GKI kernels
 - Multi-manager support removed
 
 ### 📱 Supported Devices
